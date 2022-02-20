@@ -1,6 +1,5 @@
 # API PBE-VEICULAR
 
-
 ## OBJETIVO DO PROJETO:
 
 Disponibilizar de forma democrática os dados de todos os veículos, de todos os anos que já foram homologados no Brasil. Tendo como informações relevantes de emissões, caracteristicas do veículo e organizados por montadora.
