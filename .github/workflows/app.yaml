@@ -10,5 +10,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: Test
       run: |
-        install-requirements
-        test
+        make install-requirements
+        make test
