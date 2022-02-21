@@ -1,0 +1,13 @@
+name: API-PBE-VEICULAR
+
+on: [pull_request, push]
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Test with Docker
+      run: |
+        pytest -s
