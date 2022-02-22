@@ -99,6 +99,8 @@ pylint-plugin-utils==0.7
     #   pylint-celery
     #   pylint-django
     #   pylint-flask
+python-decouple==3.6
+    # via -r base.in
 pytz==2021.3
     # via djangorestframework
 pyyaml==6.0

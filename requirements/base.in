@@ -1,6 +1,7 @@
-prospector==1.6.0
 blue==0.7.0
+django-filter
 djangorestframework
 markdown
-django-filter
 pip-compile-multi
+prospector==1.6.0
+python-decouple==3.6
