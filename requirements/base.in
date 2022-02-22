@@ -1,5 +1,6 @@
 blue==0.7.0
 django-filter
+django-rest-swagger
 djangorestframework
 markdown
 pip-compile-multi
