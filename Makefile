@@ -36,3 +36,6 @@ create-migrate:
 
 run-migrate:
 	@python ./src/manage.py migrate
+
+pre-commit:
+	@pre-commit run --all-files

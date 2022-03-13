@@ -1,13 +1,11 @@
-from django.shortcuts import render
+from check.serializers import PingSerializer, PongSerializer
 from rest_framework.generics import ListAPIView
 from rest_framework.response import Response
-
-from check.serializers import PingSerializer, PongSerializer
 
 
 class PongViewSet(ListAPIView):
     serializer_class = PongSerializer
-    message = 'PING: The API is running!'
+    message = "PING: The API is running!"
 
     def get(self, format=None):
         return Response(self.message)
@@ -15,7 +13,7 @@ class PongViewSet(ListAPIView):
 
 class PingViewSet(ListAPIView):
     serializer_class = PingSerializer
-    message = 'PONG: The API is running'
+    message = "PONG: The API is running"
 
     def get(self, format=None):
         return Response(self.message)
