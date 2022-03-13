@@ -11,6 +11,10 @@ format:
 	@blue .
 	@isort .
 
+create-requirements:
+	@pip-compile ./requirements/base.in
+	@pip-compile ./requirements/test.in
+
 install-requirements:
 	@pip install -r ./requirements/base.txt
 	@pip install -r ./requirements/test.txt
