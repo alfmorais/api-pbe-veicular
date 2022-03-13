@@ -27,3 +27,11 @@ repos:
     hooks:
     -   id: markdownlint
         args: [--fix]
+- repo: https://github.com/sirosen/fix-smartquotes
+  rev: 0.1.1
+  hooks:
+    - id: fix-smartquotes
+      # replace default single quote chars with this set:
+      # apostrophe, fullwidth apostrophe, left single quote, single high
+      # reversed-9 quote, right single quote
+      args: ["--single-quote-codepoints", "0027,FF07,2018,201B,2019"]
