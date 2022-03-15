@@ -2,6 +2,7 @@ blue==0.7.0
 django-filter
 django-rest-swagger
 djangorestframework
+ipdb==0.13.9
 markdown
 pip-compile-multi
 pre-commit
